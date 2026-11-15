@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo Levallois — Portfolio</title>
+  <meta name="description" content="Portfolio de Hugo Levallois : compétences, expériences et projets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <a href="#accueil" class="logo">HL<span>.</span></a>
+    <nav>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+      <ul id="menu">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#experiences">Expériences</a></li>
+        <li><a href="#contact" class="btn-nav">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">◐</button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="hero-inner reveal">
+        <p class="eyebrow">&gt; Bonjour, je suis</p>
+        <h1>Hugo <span class="grad">Levallois</span></h1>
+        <p class="typing">Je suis <span id="typed"></span><span class="cursor">|</span></p>
+        <p class="lead">
+          Étudiant passionné par l'informatique, je conçois des projets web et logiciels
+          de A à Z. Voici un aperçu de mon parcours et de mes réalisations.
+        </p>
+        <div class="cta">
+          <a href="#projets" class="btn primary">Voir mes projets</a>
+          <a href="#contact" class="btn ghost">Me contacter</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/hugolevallois" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:ton.email@exemple.com">Email</a>
+        </div>
+      </div>
+      <a href="#apropos" class="scroll-down" aria-label="Descendre">↓</a>
+    </section>
+
+    <!-- A PROPOS -->
+    <section id="apropos" class="section">
+      <h2 class="title reveal"><span>01.</span> À propos</h2>
+      <div class="about reveal">
+        <div class="about-text">
+          <p>Salut ! Je m'appelle Hugo, j'ai [ÂGE] ans et je suis en [FORMATION / ÉCOLE]. J'aime transformer des idées en produits concrets, du design de l'interface jusqu'à la logique côté serveur.</p>
+          <p>Je suis curieux, autonome et j'aime apprendre en construisant. Mes projets personnels m'ont permis de toucher à de nombreuses technologies et de progresser rapidement.</p>
+          <p>En dehors du code, j'aime [LOISIRS : sport, musique, jeux, photo…].</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong data-count="5">0</strong><span>Projets réalisés</span></div>
+          <div class="stat"><strong data-count="3">0</strong><span>Années de pratique</span></div>
+          <div class="stat"><strong data-count="10">0</strong><span>Technologies</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPETENCES -->
+    <section id="competences" class="section alt">
+      <h2 class="title reveal"><span>02.</span> Compétences</h2>
+      <div class="skills-grid">
+        <div class="card reveal">
+          <h3>Développement web</h3>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span><span>React</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Langages</h3>
+          <div class="tags"><span>Python</span><span>Java</span><span>C</span><span>SQL</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Outils</h3>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Linux</span><span>Figma</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Soft skills</h3>
+          <div class="tags"><span>Travail d'équipe</span><span>Autonomie</span><span>Rigueur</span><span>Créativité</span></div>
+        </div>
+      </div>
+
+      <div class="bars reveal">
+        <div class="bar"><label>HTML / CSS <em>90%</em></label><div><i style="--w:90%"></i></div></div>
+        <div class="bar"><label>JavaScript <em>75%</em></label><div><i style="--w:75%"></i></div></div>
+        <div class="bar"><label>Python <em>70%</em></label><div><i style="--w:70%"></i></div></div>
+        <div class="bar"><label>SQL <em>65%</em></label><div><i style="--w:65%"></i></div></div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets" class="section">
+      <h2 class="title reveal"><span>03.</span> Projets</h2>
+      <div class="projects">
+
+        <article class="project reveal">
+          <div class="project-img grad-1"><span>Ghetto</span></div>
+          <div class="project-body">
+            <h3>Ghetto</h3>
+            <p>Description de ton projet Ghetto : son objectif, ce qu'il permet de faire et ce que tu as appris en le réalisant.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="links">
+              <a href="https://hugolevallois.github.io/Ghetto/" target="_blank" rel="noopener">Voir le site ↗</a>
+              <a href="https://github.com/hugolevallois/Ghetto" target="_blank" rel="noopener">Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-img grad-2"><span>GrandGibier</span></div>
+          <div class="project-body">
+            <h3>GrandGibier</h3>
+            <p>Description de ton projet GrandGibier : contexte, fonctionnalités principales et technologies utilisées.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="links">
+              <a href="https://hugolevallois.github.io/GrandGibier/" target="_blank" rel="noopener">Voir le site ↗</a>
+              <a href="https://github.com/hugolevallois/GrandGibier" target="_blank" rel="noopener">Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-img grad-3"><span>Projet 3</span></div>
+          <div class="project-body">
+            <h3>Nom du projet</h3>
+            <p>Ajoute ici un nouveau projet : copie ce bloc &lt;article&gt; et modifie le titre, le texte et les liens.</p>
+            <div class="tags"><span>Techno 1</span><span>Techno 2</span></div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">Voir le site ↗</a>
+              <a href="#" target="_blank" rel="noopener">Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCES -->
+    <section id="experiences" class="section alt">
+      <h2 class="title reveal"><span>04.</span> Expériences &amp; formation</h2>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <span class="date">2025 — Présent</span>
+          <h3>Formation / École</h3>
+          <p class="where">Nom de l'établissement</p>
+          <p>Décris ta formation actuelle, les matières clés et les projets réalisés.</p>
+        </div>
+        <div class="tl-item reveal">
+          <span class="date">2025</span>
+          <h3>Stage / Job</h3>
+          <p class="where">Nom de l'entreprise</p>
+          <p>Missions réalisées, outils utilisés, résultats obtenus.</p>
+        </div>
+        <div class="tl-item reveal">
+          <span class="date">2023 — 2025</span>
+          <h3>Diplôme / Parcours précédent</h3>
+          <p class="where">Nom de l'établissement</p>
+          <p>Ce que tu y as appris et ce qui t'a mené vers l'informatique.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="title reveal"><span>05.</span> Contact</h2>
+      <div class="reveal contact-box">
+        <p>Un projet, une opportunité, une question ? Ma boîte mail est toujours ouverte.</p>
+        <a href="mailto:ton.email@exemple.com" class="btn primary big">Me dire bonjour</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Hugo Levallois — Fait avec ♥ et hébergé sur GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
