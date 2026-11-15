@@ -156,6 +156,12 @@ ul { list-style: none; }
 .grad-1 { background: linear-gradient(135deg, #6c8cff, #b36cff); }
 .grad-2 { background: linear-gradient(135deg, #22c1a0, #2f7bff); }
 .grad-3 { background: linear-gradient(135deg, #ff7a59, #ff4f8b); }
+.grad-4 { background: linear-gradient(135deg, #2f9e6e, #1b6f8f); }
+.grad-5 { background: linear-gradient(135deg, #f2a43a, #e8613c); }
+.subtitle { font-size: 1.2rem; margin-bottom: 20px; }
+.contact-links { margin-top: 28px; font-size: .92rem; }
+.contact-links a { color: var(--accent); }
+.contact-links a:hover { text-decoration: underline; }
 .project-body { padding: 24px; display: flex; flex-direction: column; gap: 14px; flex: 1; }
 .project-body p { color: var(--muted); font-size: .94rem; flex: 1; }
 .links { display: flex; gap: 20px; }
