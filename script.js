@@ -25,7 +25,7 @@ const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 20));
 
 // ===== Effet machine à écrire =====
-const words = ['ingénieur géomatique', 'spécialiste des données spatiales', 'passionné de biodiversité', 'pilote de drone'];
+const words = ['ingénieur géomatique', 'spécialiste des données spatiales', 'passionné de biodiversité'];
 const typed = document.getElementById('typed');
 let w = 0, c = 0, deleting = false;
 function type() {
