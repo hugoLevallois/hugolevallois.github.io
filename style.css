@@ -75,8 +75,8 @@ ul { list-style: none; }
 
 /* ===== Hero ===== */
 .hero {
-  min-height: 100vh; display: flex; align-items: center; justify-content: center;
-  padding: 120px 8vw 60px; position: relative; overflow: hidden;
+  min-height: auto; display: flex; align-items: center; justify-content: center;
+  padding: 130px 8vw 90px; position: relative; overflow: hidden;
 }
 .hero::before {
   content: ''; position: absolute; width: 600px; height: 600px; border-radius: 50%;
@@ -114,7 +114,10 @@ ul { list-style: none; }
 @keyframes bounce { 50% { transform: translate(-50%, 8px); } }
 
 /* ===== À propos ===== */
+#apropos { padding-top: 30px; }
 .about { display: grid; grid-template-columns: 1.6fr 1fr; gap: 50px; align-items: start; }
+.about-langs { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+.about-langs .bars { max-width: none; }
 .about-text p { margin-bottom: 16px; color: var(--muted); }
 .stats { display: grid; gap: 16px; }
 .stat { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; }
